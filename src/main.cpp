@@ -274,8 +274,7 @@ int main()
 		send_buf[2]=((int)volumeAcc)%256;
 		send_buf[3]=((int)volumeAcc)/256;
 		
-		
-				
+					
 		serial_send(fd,&options,send_buf);
 		  				    	
 	    }
